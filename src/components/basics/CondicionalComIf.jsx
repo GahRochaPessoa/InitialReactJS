@@ -2,7 +2,7 @@ import React from 'react'
 import If from './if'
 
 export default props =>{
-    return(
+  return(
         <div>
             <h2>O número é {props.numero}</h2>
             <If test = {props.numero % 2 === 0}>
